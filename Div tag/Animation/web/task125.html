@@ -1,0 +1,296 @@
+<html>
+<head>
+<style>
+:root
+{
+--mycolor:#fcc62a;
+--ltcolor:#054bbb;
+}
+#outer{
+min-height:1000px;
+width:1200px;
+border: 1px solid black;
+margin:0px auto;
+}
+#header{
+height:100px;
+width:1200px;
+background:rgba(255,255,0,.5);
+//border-bottom:1px solid black;
+text-align:center;
+font-size:25px;
+}
+#headerleft{
+height:100px;
+width:400px;
+float:left;
+background:white;
+text-align:center;
+font-size:25px;
+}
+#headerright{
+height:100px;
+width:800px;
+float:left;
+background:green;
+text-align:center;
+font-size:25px;
+}
+.a{
+height:100px;
+width:200px;
+float:left;
+background:white;
+line-height:30px;
+//border-right:1px solid gray;
+text-align:center;
+font-size:15px;
+box-sizing:border-box;
+padding-left:15px 24px;
+list-style:none;
+}
+#menu{
+height:50px;
+width:1200px;
+text-align:center;
+background:green;
+}
+nav ul{
+list-style-type:none;
+}
+nav ul li{
+height:40px;
+width:140px;
+line-height:40px;
+font-size:22px;
+//background:yellow;
+text-align:center;
+border-redius:50px;
+float:left;
+transform:translate(-15px);
+margin:5px auto;
+color:black;
+font-weight:bold;
+transition:3s;
+
+}
+nav ul li:hover{
+background:var(--mycolor);
+border-redius:50px;
+color:black;
+
+}
+.search{
+    width: 280px;
+    float: left;
+    margin-left: 200px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid red;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+    //border-bottom-right-radius: 5px;
+    //border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+nav ul li ul{
+height:50px;
+width:180px;
+color:white;
+font-size:26px;
+padding-top:10px;
+text-align:center;
+//background:#e64a19;
+box-sizing:border-box;
+float:left;
+display:block;
+transform:tranlatey(0px);
+
+}
+
+nav ul li:hover
+{
+background:white;
+color:black;
+transition:1s;
+
+}
+#top{
+min-height:500px;
+width:1200px;
+background:url("img/back.jpg");
+background-size:100% 100%;
+background-attachment:fixed;
+animation:sonashu 2s infinite alternate;
+}
+#left{
+min-height:500px;
+width:600px;
+float:left;
+//background:red;
+}
+
+}
+#right{
+min-height:450px;
+width:500px;
+float:left;
+//background:green;
+background:rgba(255,255,255,.5);
+float:left;
+margin:25px 50px;
+padding:40px;
+box-sizing:border-box;
+font-size:18px;
+font-weight:bold;
+color:white;
+line-height:250px;
+
+}
+
+/*@keyframes sonashu{
+0%{
+background:url("img/abc.jpg");
+background-size:cover;
+}
+50%{background:url("img/a1.jpg");
+background-size:cover;
+}
+100%{
+background:url("img/h.jpg");
+background-size:cover;
+}
+}*/
+.footer{
+min-height:250px;
+width:1100px;
+background:green;
+margin:0px 50px;
+box-sizing:border-box;  
+transform:translateY(-53px);                    
+}
+.f1{
+min-height:250px;
+width:366px;
+float:left;
+background:#ff9600;
+box-sizing:border-box;  
+padding:44px;
+padding-top:45px;
+color:white;
+font-size:18px;
+                    
+}
+
+</style>
+</head>
+<body>
+<div id="outer">
+<div id="header">
+<div id="headerleft">
+<img src="img/booklogo1.png" style="height:45px; width:60px;  text-align:center;"/><span><b>Edumart</b>
+</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="border-bottom:1px solid gray;border-bottom-color:gree">Online<span>
+</div>
+<div id="headerright">
+<div class="a"></div>
+<div class="a">Email
+<a href="" style="text-decoration:none; color:black;"><li>sonashutech@gmail.com</li></a></div>
+<div class="a">Mobile
+<p>+919519979670</p></div>
+<div class="a">
+<input type="submit" value="Student Login" style="height:45px; width:150px; border:1px solid lightblue; margin-top:30px;
++23"/>
+</div>
+</div>
+</div>
+
+<div id="menu">
+<nav>
+<ul>
+<a href="#"><li>HOME</li></a>
+<a href="#"><li>ABOUTUS</b></li></a>
+<a href="#"><li>SERVICES+
+<ul>
+<a href="#"><li>SERVICES1</li></a>
+<a href="#"><li>SERVICES1</li></a>
+</ul>
+</li></a>
+<a href="#"><li>GALLERY</li></a>
+<a href="#"><li>PAGES</li></a>
+<a href="#"><li>CONTACT</li></a>
+
+                <input class="srch" type="search" name="" placeholder="SEARCH NOW">
+                <a href="#"> <button class="btn">Search</button></a>
+       
+</ul>
+</nav>
+</div>
+<div id="top">
+<div id="left"></div>
+<div id="right">
+<p style="font-size:25px;color:white; margin:0px 45px; padding-top:200px;">EXPLORE THE WORLD OF </p><b style="text-align:center;font-size:45px;margin:0px auto; color:white;">OUR GRADUATES</b>
+<br>
+<b style="color:white;">This publisher has not identified itself as a trader.
+ For consumers in the European Union, please note that consumer
+ rights may not apply to contracts between you</b>
+ <b style="height:56px;width:125px;margin-top:text-align:center;line-height:56px;
+margin-top:40px;margin-left:150px;padding:12PX;font-size:22px;background:var(--mycolor);border-radius:5px;text-align:center;">KNOW MORE</b>
+
+</div>
+</div>
+
+<div class="footer">
+<div class="f1">
+<img src="img/abc.jpg" height="55px" width="56px"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>APPLY ONLINE<span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<P style="text-align:left; padding-right:34px;">loren ipsun is simply dummy text of the printing</P>
+</div>
+<div class="f1" style="background:#2c96ea;">
+<img src="img/abc.jpg" height="55px" width="56px"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>APPLY ONLINE<span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<P style="text-align:left; padding-right:34px;">loren ipsun is simply dummy text of the printing</P>
+</div><div class="f1" style="background:#efbc01;">
+<img src="img/abc.jpg" height="55px" width="56px"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>APPLY ONLINE<span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<P style="text-align:left; padding-right:34px;">loren ipsun is simply dummy text of the printing</P>
+</div>
+</div>
+</div>
+</DIV>
+
+</body>
+
+</html>
